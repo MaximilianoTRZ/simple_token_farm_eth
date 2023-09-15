@@ -5,13 +5,13 @@ dotenv.config();
 
 // Ve a https://infura.io, regístrate, crea una nueva clave API
 // en su panel, y reemplázala por "KEY"
-const INFURA_API_KEY = process.env.INFURA_API_KEY || "key";
+const INFURA_API_KEY = process.env.INFURA_API_KEY;
 
 // Reemplaza esta clave privada por la clave privada de tu cuenta Sepolia
 // Para exportar tu clave privada desde Metamask, abre Metamask y
 // ve a Detalles de la Cuenta > Exportar Clave Privada
 // Advertencia: NUNCA coloques Ether real en cuentas de prueba
-const SEPOLIA_PRIVATE_KEY = process.env.SEPOLIA_PRIVATE_KEY || "key";
+const SEPOLIA_PRIVATE_KEY = process.env.SEPOLIA_PRIVATE_KEY;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
