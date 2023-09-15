@@ -7,9 +7,8 @@ https://docs.pancakeswap.finance/products/yield-farming/how-to-use-farms
 
 En este ejercicio, implementarás un proyecto DeFi Simple Token Farm.
 
-La Granja debería permitir al usuario hacer depósitos y retiros de un Token LP simulado.
-Los usuarios también pueden reclamar las recompensas generadas durante el staking. Estas tokens de recompensa son el token de la plataforma: nombre: "Token DApp", token "DAPP".
-El contrato contiene el marco y los comentarios para implementar el contrato. Sigue los comentarios señalados para implementarlo.
+La Granja permite al usuario hacer depósitos y retiros de un Token LP simulado.
+Los usuarios también pueden reclamar las recompensas generadas durante el staking. Estos tokens de recompensa son el token de la plataforma: nombre: "Token DApp", token "DAPP".
 
 El caso de uso del contrato Simple Token Farm es el siguiente:
 
